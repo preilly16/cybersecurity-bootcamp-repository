@@ -1,10 +1,8 @@
 # KU CyberSecurity BootCamp
 
 ![Career Services](images/CareerServicesLogo.png "Career Services")
+
 [Link to Career Services Online Events Hub](https://careerservicesonlineevents.splashthat.com/)
-
-
-<img src="/images/GitLabBAnner.png"  width="auto" height="200">
 
 ##### How to start your local git repository from vscode:
 
