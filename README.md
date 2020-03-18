@@ -1,6 +1,6 @@
 # KU CyberSecurity BootCamp
 
-![Career Services](images/CareerServicesLogo.png "Career Services")
+![](images/CareerServicesLogo.png "Career Services")
 
 [Link to Career Services Online Events Hub](https://careerservicesonlineevents.splashthat.com/)
 
