@@ -9,6 +9,7 @@
 ##### How to start your local git repository from vscode:
 
 ```powershell
+# These instructions are meant to work with powershell while having Git For Windows installed.
 # lets move to my documents
 cd $home\documents
 # your shell should say something like 
