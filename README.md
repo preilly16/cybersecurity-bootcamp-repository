@@ -28,4 +28,14 @@ git pull
 # let the instructional staff know if you have any questions :)
 ```
 
+
+## Libre Office
+
+Libre, a free, open-source version of Microsoft Office.
+  * [Libre website](<https://www.libreoffice.org/download/download/>) 
+  * Download LibreOffice 6.2.8, as it's a more stable version of the software. 
+  * The download should only take a few minutes, and then they will be able to open up spreadsheets.
+
+
+
 Class Name: # KU-EDW-CYBER-PT-03-2020-U-C
