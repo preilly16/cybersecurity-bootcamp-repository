@@ -8,10 +8,10 @@
 
 # Standards
 	Mid-Level, Slightly more detailed, approved methods for achieving the goal.
-	Approved by HR Directors, Managers,
+	Approved by Directors, (Senior-)Managers,
 	Every 6 Months approval
 	Change Control Requirements
-    Usually Written Managers - (Technical manager)
+    Usually Written Managers - (Technical manager/Technical Lead)
 	In order to achieve the goals of <Policy Name Here (Authorized Use Policy)> We will follow industry best practices in alignment with guidance from NIST 800-53, CIS Level 1 Standard, PCI-DSS v3.2
 
 # Procedure
@@ -22,11 +22,12 @@
 	We will perform Action B based on Guidelin A
 	We will perform Action B based on Guidelin A
 	Updated As Needed WITH change Control. 
-	Approved By Technical Managers OR HR Managers
+	Approved By Technical Managers OR HR Managers (Team Leads)
 
 # Guidelines
 	Low-level, extremely detailed, exact implementation of how we are achieving a goal.
 	Do not have change control requirements
+	Do not have approval requirements
 	Log into domain controller A, B, C, and D. 
 	Run this command to disable Root Access
 	This document can be modified by anyone who is an administrator of the system
