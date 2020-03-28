@@ -35,11 +35,11 @@ This will install Vagrant on your system.After Vagrant is installed, run the scr
 
 Open **Powershell** (Windows) 
 
-Run: `.\VMContingencyPlan\VagrantSetup\vagrant-windows.sh --create`
+Run: `.\VMContingencyPlan\VagrantSetup\vagrant-windows.ps1 --create`
 
 Open **Terminal** (Mac).
 
-Run: `bash ~/VMContingencyPlan/VagrantSetup/vagrant-linux.sh --create`
+Run: `bash ./VMContingencyPlan/VagrantSetup/vagrant-linux.sh --create`
 
 This will download and start the VM we will be using henceforth. It will automatically appear in a GUI after it is downloaded and started.Jf you have trouble running the script, notify your instructor or a TA for help
 
