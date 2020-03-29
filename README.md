@@ -10,84 +10,83 @@
     Download LibreOffice 6.2.8, as it's a more stable version of the software. 
     The download should only take a few minutes, and then you will be able to open up spreadsheets.
 
-## Course Overview
-Week 1: Security 101
+# Week 1: Security 101
 - [Homework Assignment](01-Cybersecurity-101/Homework/)
 - [Day 1](01-Cybersecurity-101/Day-1/)
 - [Day 2](01-Cybersecurity-101/Day-2/)
 - [Day 3](01-Cybersecurity-101/Day-3/)
 
-Week 2: Governance, Risk, and Compliance
+# Week 2: Governance, Risk, and Compliance
 
 - [Homework Assignment](/02-GRC/Homework/)
 - [Day 1](02-GRC/Day-1/)
 - [Day 2](02-GRC/Day-2/)
 - [Day 3](02-GRC/Day-3/)
 
-Week 3: Introduction to Terminal and Bash
+# Week 3: Introduction to Terminal and Bash
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 4: Linux System Administration Fundamentals
+# Week 4: Linux System Administration Fundamentals
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 5: Linux Archiving and Logging Data
+# Week 5: Linux Archiving and Logging Data
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 6: Bash Scripting and Programming
+# Week 6: Bash Scripting and Programming
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 7: Windows Administration and Hardening
+# Week 7: Windows Administration and Hardening
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 8: Networking Fundamentals
+# Week 8: Networking Fundamentals
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 9: Networking Fundamentals and CTF Review
+# Week 9: Networking Fundamentals and CTF Review
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 10: Cryptography
+# Week 10: Cryptography
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 11: Network Security
+# Week 11: Network Security
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 12: Cloud Security and Virtualization
+# Week 12: Cloud Security and Virtualization
 
 - [Homework Assignment]
 - [Day 1]
@@ -95,83 +94,83 @@ Week 12: Cloud Security and Virtualization
 - [Day 3]
 - Day 4
 
-Week 13: Project Week 1
+# Week 13: Project # Week 1
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 14: Web Development
+# Week 14: Web Development
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 
-Week 15: Web Vulnerabilities and Hardening
-
-- [Homework Assignment]
-- [Day 1]
-- [Day 2]
-- [Day 3]
-
-Week 16: Penetration Testing 1
+# Week 15: Web Vulnerabilities and Hardening
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 17: Penetration Testing 2
+# Week 16: Penetration Testing 1
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 18: SIEMs
+# Week 17: Penetration Testing 2
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 19: SIEMs 2
+# Week 18: SIEMs
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 20: Project Week 2
+# Week 19: SIEMs 2
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 21: Digital Forensics
+# Week 20: Project # Week 2
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 22: Test Prep and Review
+# Week 21: Digital Forensics
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 23: Final Projects
+# Week 22: Test Prep and Review
 
 - [Homework Assignment]
 - [Day 1]
 - [Day 2]
 - [Day 3]
 
-Week 24: Final Projects
+# Week 23: Final Projects
+
+- [Homework Assignment]
+- [Day 1]
+- [Day 2]
+- [Day 3]
+
+# Week 24: Final Projects
 
 - [Homework Assignment]
 - [Day 1]
