@@ -49,6 +49,18 @@
 - [Public Data Sets](https://github.com/awesomedata/awesome-public-datasets)
 - [Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
 
+
+# God Mode Folder for Windows
+Right click on your desktop > New Folder
+Name the folder
+`GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
+
+# Bash in Windows
+Open Powershell as Administrator (right click on powershell and choose run as administrator)
+Run the following command:
+`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+Once this command completes, the next time you open powershell, you can type `wsl` (and press enter) and then you will have bash in your powershell window.
+
 # Course Overview
 
 ## Week 1: Security 101
