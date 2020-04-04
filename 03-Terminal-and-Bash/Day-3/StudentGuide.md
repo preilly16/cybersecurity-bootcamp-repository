@@ -20,7 +20,7 @@ By the end of this class, you will be able to:
 
 ### Slideshow
 
-- The lesson slides are available on Google Drive here: [Terminal 101 Day 3 Slides]().
+- The lesson slides are available on Google Drive here: [Terminal 101 Day 3 Slides](https://docs.google.com/presentation/d/1S8QTtMz4-SJiy5SUFVHTfaOvFaDnQZASeMAKSSHc4Us/).
 
 
 - **Note:** Editing access is not available for this document. If you wish to modify the slides, please create a copy by navigating to File > "Make a copy...".
