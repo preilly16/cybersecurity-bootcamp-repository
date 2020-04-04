@@ -5,6 +5,17 @@
 # Tools
 - [Command Line CheatSheet Tool](https://github.com/cheat/cheat)
   - [Security Cheat Sheets](https://github.com/andrewjkerr/security-cheatsheets)
+    ### How to Install Cheat
+    - PreRequisites:
+      - Install Windows Subsystem for Linux
+      - in powershell type `wsl` to enter bash on linux
+    1. go to https://github.com/cheat/cheat/releases
+    2. Download cheat-linux-amd64.gz
+    3. run `gunzip ./cheat-linux-amd64.gz`
+    4. run `sudo mkdir /opt/cheat/`
+    5. run `sudo cp ./cheat-linux-amd64.gz /opt/cheat/cheat`
+    6. run `sudo PATH=/opt/cheat:$PATH`
+    7. run `mkdir -p ~/.config/cheat && cheat --init > ~/.config/cheat/conf.yml`
 - [BeyondCompare (Diff Gui)](https://www.scootersoftware.com/download.php)
 - [ClipboardPath (Simple, but useful)](http://stefan.bertels.org/en/clipboardpath)
 - [Easy Password Bypass](https://www.piotrbania.com/all/kon-boot/)
