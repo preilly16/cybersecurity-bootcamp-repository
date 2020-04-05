@@ -60,6 +60,10 @@
 - [Public Data Sets](https://github.com/awesomedata/awesome-public-datasets)
 - [Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions)
 
+# Book List
+- The Goal by Eliyahu Goldratt
+- The Phoenix Project by Gene Kim
+- The Unicorn PRoject by Gene Kim
 
 # God Mode Folder for Windows
 Right click on your desktop > New Folder
@@ -89,10 +93,10 @@ Once this command completes, the next time you open powershell, you can type `ws
 
 ## Week 3: Introduction to Terminal and Bash
 
-- [Homework Assignment]
-- [Day 1]
-- [Day 2]
-- [Day 3]
+- [Homework Assignment](03-Terminal-and-Bash/Homework/)
+- [Day 1](03-Terminal-and-Bash/Day-1/)
+- [Day 2](03-Terminal-and-Bash/Day-2/)
+- [Day 3](03-Terminal-and-Bash/Day-3/)
 
 ## Week 4: Linux System Administration Fundamentals
 
