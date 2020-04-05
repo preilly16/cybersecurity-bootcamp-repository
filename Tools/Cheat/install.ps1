@@ -107,28 +107,12 @@ cheatpaths:
 
 Set-Content -Path $conffile -Value $cheatconfig
 
-#Add Cheat Folder to $PATH
-$oldpath = (Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH).path
-$newpath = $oldpath + ";$cheatpath;"
-Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value $newpath
+# Add Cheat to Path
+$pathobject = [Environment]::GetEnvironmentVariable('Path', [System.EnvironmentVariableTarget]::Machine)
+$newpath = '{0}{1}{2}' -f $pathobject,[IO.Path]::PathSeparator,$cheatpath
 
-#$Add Config File Location to system variables
-Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name CHEAT_CONFIG_PATH -Value $conffile | Out-Null
+[Environment]::SetEnvironmentVariable('Path', $newpath, [System.EnvironmentVariableTarget]::Machine)
+[Environment]::SetEnvironmentVariable('CHEAT_CONFIG_PATH', $conffile, [System.EnvironmentVariableTarget]::Machine)
 
-#Tell windows that we updated the path variable.
-$HWND_BROADCAST = [IntPtr] 0xffff;
-$WM_SETTINGCHANGE = 0x1a;
-$result = [UIntPtr]::Zero
 
-if (-not ("Win32.NativeMethods" -as [Type]))
-{
-    # import sendmessagetimeout from win32
-    Add-Type -Namespace Win32 -Name NativeMethods -MemberDefinition @"
-    [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
-    public static extern IntPtr SendMessageTimeout(
-    IntPtr hWnd, uint Msg, UIntPtr wParam, string lParam,
-    uint fuFlags, uint uTimeout, out UIntPtr lpdwResult);
-"@
-}
-# notify all windows of environment block change
-[Win32.Nativemethods]::SendMessageTimeout($HWND_BROADCAST, $WM_SETTINGCHANGE, [UIntPtr]::Zero, "Environment", 2, 5000, [ref] $result) | Out-Null
+Write-Host "You must Restart VSCode to be able to start using the cheat command."
