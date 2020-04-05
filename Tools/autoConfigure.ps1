@@ -29,6 +29,6 @@ if($env:OS -eq 'Windows_NT'){
   choco install wsl
 }
 
-Invoke-Expression ($psscriptroot/Cheat/install.ps1)
-Invoke-Expression ($psscriptroot/VSCode/configureVSCode.ps1)
-Invoke-Expression ($psscriptroot/Git/configureGit.ps1)
+Invoke-Expression ("$psscriptroot/Cheat/install.ps1")
+Invoke-Expression ("$psscriptroot/VSCode/configureVSCode.ps1")
+Invoke-Expression ("$psscriptroot/Git/configureGit.ps1")
