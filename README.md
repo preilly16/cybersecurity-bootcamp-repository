@@ -1,12 +1,12 @@
 # Course Resources
 - [Career Services Online Events Hub](https://careerservicesonlineevents.splashthat.com/)
 
-
-# Tools
-- [Chocolatey Package Manager for Windows](https://chocolatey.org/)
+# Cheat
 - [Command Line CheatSheet Tool](https://github.com/cheat/cheat)
-  - [Security Cheat Sheets](https://github.com/andrewjkerr/security-cheatsheets)
-    ### How to Install Cheat
+    ### How to Install Cheat On Windows
+    Run the install.ps1 located [here](/Tools/Cheat/)
+
+    ### How to Install Cheat On Linux
     - PreRequisites:
       - Install Windows Subsystem for Linux
       - in powershell type `wsl` to enter bash on linux
@@ -17,6 +17,10 @@
     5. run `sudo cp ./cheat-linux-amd64.gz /opt/cheat/cheat`
     6. run `sudo PATH=/opt/cheat:$PATH`
     7. run `mkdir -p ~/.config/cheat && cheat --init > ~/.config/cheat/conf.yml`
+
+
+# Tools
+- [Chocolatey Package Manager for Windows](https://chocolatey.org/)
 - [BeyondCompare (Diff Gui)](https://www.scootersoftware.com/download.php)
 - [ClipboardPath (Simple, but useful)](http://stefan.bertels.org/en/clipboardpath)
 - [Easy Password Bypass](https://www.piotrbania.com/all/kon-boot/)
@@ -80,7 +84,7 @@ Once this command completes, the next time you open powershell, you can type `ws
 # Git Configuration
 git config --global core.editor "code --wait"
 git config --global diff.tool "vscode"
-git config --global difftool.vscode.cmd  "code --wait --diff $LOCAL $REMOTE"
+git config --global difftool.vscode.cmd  'code --wait --diff $LOCAL $REMOTE'
 
 # Course Overview
 
