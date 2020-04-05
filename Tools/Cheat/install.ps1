@@ -109,7 +109,7 @@ Set-Content -Path $conffile -Value $cheatconfig
 
 #Add Cheat Folder to $PATH
 $oldpath = (Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH).path
-$newpath = $oldpath + "$cheatpath;"
+$newpath = $oldpath + ";$cheatpath;"
 Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value $newpath
 
 #$Add Config File Location to system variables
