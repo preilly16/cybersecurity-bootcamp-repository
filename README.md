@@ -3,6 +3,7 @@
 
 
 # Tools
+- [Chocolatey Package Manager for Windows](https://chocolatey.org/)
 - [Command Line CheatSheet Tool](https://github.com/cheat/cheat)
   - [Security Cheat Sheets](https://github.com/andrewjkerr/security-cheatsheets)
     ### How to Install Cheat
@@ -75,6 +76,11 @@ Open Powershell as Administrator (right click on powershell and choose run as ad
 Run the following command:
 `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 Once this command completes, the next time you open powershell, you can type `wsl` (and press enter) and then you will have bash in your powershell window.
+
+# Git Configuration
+git config --global core.editor "code --wait"
+git config --global diff.tool "vscode"
+git config --global difftool.vscode.cmd  "code --wait --diff $LOCAL $REMOTE"
 
 # Course Overview
 
