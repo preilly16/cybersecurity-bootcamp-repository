@@ -70,22 +70,36 @@
 - The Phoenix Project by Gene Kim
 - The Unicorn PRoject by Gene Kim
 
+# Videos to watch 
+## OSI TCP/IP
+[![Alt text](https://img.youtube.com/vi/i9RL5jD9cTI/0.jpg)](https://www.youtube.com/watch?v=i9RL5jD9cTI)
+## Eliptic Curve Cryptography
+[![Alt text](https://img.youtube.com/vi/dCvB-mhkT0w/0.jpg)](https://www.youtube.com/watch?v=dCvB-mhkT0w)
+## OWASP Top 10
+https://www.youtube.com/playlist?list=PLyqga7AXMtPPuibxp1N0TdyDrKwP9H_jD
+
 # God Mode Folder for Windows
 Right click on your desktop > New Folder
 Name the folder
-`GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
+```
+GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}
+```
 
 # Bash in Windows
 Open Powershell as Administrator (right click on powershell and choose run as administrator)
 Run the following command:
-`Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+```Powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
 Once this command completes, the next time you open powershell, you can type `wsl` (and press enter) and then you will have bash in your powershell window.
 
 # Git Configuration
+```git
 git config --global core.editor "code --wait"
 git config --global diff.tool "vscode"
 git config --global difftool.vscode.cmd  'code --wait --diff $LOCAL $REMOTE'
-
+```
 # Course Overview
 
 ## Week 1: Security 101
