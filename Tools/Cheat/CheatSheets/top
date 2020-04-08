@@ -1,0 +1,5 @@
+# Show list of running processes. Updates every 3 seconds
+top
+
+# Show list of running processes once so that we can pipe it to other stuff
+top -bn1
