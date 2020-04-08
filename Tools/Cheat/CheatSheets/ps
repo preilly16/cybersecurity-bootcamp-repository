@@ -1,0 +1,5 @@
+# Easy way to view all processes
+ps aux
+
+# View all processes with wordwrap
+ps aux | grep -v grep
