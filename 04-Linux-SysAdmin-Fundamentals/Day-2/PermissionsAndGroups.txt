@@ -1,0 +1,41 @@
+Filetype | User Permissions | Group Permissions| "Others" Permissions
+d        | rwx              | ---              | ---
+d        | rwx              | r-x              | r-x
+
+r = Read Permissions
+w = Write Permissions
+x = Execute Permissions
+
+
+chown - change owner
+usermod - modify a user account
+
+# adds user to a group
+usermod -a -G <groupname> <username> 
+
+# see what groups a user is a part of
+groups <username>
+
+#Create a Group
+groupadd <groupname>
+
+#delete a group
+groupdel <groupname>
+
+#Create a user
+useradd <username>
+
+#delete a user
+userdel <username>
+
+#remove a user from group
+userdel <username> <groupname>
+
+#password storage
+etc/shadow
+
+#user account info
+etc/passwd
+
+#give a user a new password
+passwd <username>
