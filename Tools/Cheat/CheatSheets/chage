@@ -1,0 +1,11 @@
+#Show the account aging info
+chage -l
+
+#Set the number of days between password expirations
+chage -M
+
+#set the number of warnings the user gets before they are required to change their password
+chage -W 
+
+#Force the user to change password on next login
+chage -d 0
