@@ -1,0 +1,17 @@
+#List Services
+systemctl -t service --all
+
+#stop a service
+systemctl stop <service name>
+
+#disable a service
+systemctl disable <service name>
+
+#uninstall a service
+#Note, to uninstall a service, you should uninstall the program that is associated with service.
+#example vsftpd.service
+#example apt remove vsftpd
+apt remove <service-package-name>
+
+# Check status of a service
+systemctl status <service name>

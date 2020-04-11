@@ -32,3 +32,60 @@ g = Group
 o = Others (Everyone)
 a = all 3 (User, Group and Others)
 
+
+Special Permissions
+chmod [0][0][0][0]
+    [Special Permissions][Owner][Group[Others]]
+0-7
+
+Special permissions
+                0 - No Special Permissions
+(STICKY BIT)    1 - Sticky Bit
+(GUID)          2 - Group Inheritence 
+                3 - Group Inheritence + Sticky Bit               
+(SUID)          4 - Owner Inheritence
+                5 - Owner Inheritence + Sticky Bit
+                6 - Owner Inheritence + Group Inheritence
+                7 - Owner Inheritence + Group Inheritence + Sticky Bit
+
+
+S = Inheritence ONLY
+s = Inheritence + Execute
+T = Sticky Bit ONLY
+t = Sticky Bit + Execute
+
+
+
+
+
+
+d | rws |  rws | rwt 
+filetype | read, write, s = Owner Inheritence | Read, Write, s = group Inheritence | Read, Write, t = Sticky Bit
+
+
+
+How Special Permissions Apply to things
+
+IF Sticky Bit is set to Directory
+THEN Only Owner or Root can delete
+
+IF SUID is set to a Directory
+THEN Files created in that directory get the same Owner that the Directory has
+
+IF GUID is set to a Directory
+THEN Files created in that directory get the same Group that the Directory has
+
+
+IF Sticky Bit is set to a File
+THEN Only Owner or Root can delete
+
+IF SUID is set to a File 
+THEN that file 'runs with the permissions of' the Owner associated with the file
+
+IF GUID is set to a File 
+THEN that file 'runs with the permissions of' the Group associated with the file
+
+
+
+Find Files with SUID set
+find -type f -perm -u+s
