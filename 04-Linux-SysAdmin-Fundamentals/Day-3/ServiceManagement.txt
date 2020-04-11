@@ -2,9 +2,11 @@
 systemctl -t service --all
 
 #stop a service
+#stops a service until next reboot
 systemctl stop <service name>
 
 #disable a service
+#disables the service from starting the next time the machine turns on.
 systemctl disable <service name>
 
 #uninstall a service
