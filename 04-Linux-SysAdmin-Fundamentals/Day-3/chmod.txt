@@ -1,0 +1,34 @@
+ls -l
+[item type][OwnerPermissions][GroupPermissions][EveryonePermissions] [bit] <owner> <group> <filesize> <date modified> <file name>
+[-,d,l][rwx][rwx][rwx] 
+- File
+d Directory
+l Link
+
+
+chmod [0][0][0]
+Digit 1 = Owner Permissions
+Digit 2 = Group Permissions
+Digit 3 = Everyone Permissions
+
+Options 0-7
+0 - No Permissions
+1 - Execute
+2 - Write
+3 - Write and Execute
+4 - Read
+5 - Read and Execute
+6 - Read and Write
+7 - All Permissions (Read, Write and Execute)
+
+
+
+
+
+chmod [reference][operator][mode] <filename>
+chmod [u,g,o,a][-,+][r,w,x]
+u = User
+g = Group
+o = Others (Everyone)
+a = all 3 (User, Group and Others)
+

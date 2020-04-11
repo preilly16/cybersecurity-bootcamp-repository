@@ -1,0 +1,22 @@
+Discretionary Access Control
+# You get to decide the permissions(rules) for your own items
+
+
+Mandatory Access Control
+# System Owner Assigns Permissions, everyone has to follow them
+# Someone else set the rules, you have to follow them
+
+
+Role Based Access Control
+# Similar to Mandatory Access Control BUT rules are assigned to you based on
+# your *role* (could be job title, could be department, etc)
+- On a single system, different users have different rules because of their title
+
+
+Attribute Based Access Control
+#Similar to role based access control
+#We're going to ask a series of questions to the *subject*
+#Decide what rules they have to follow based on the responses to the question.
+#Example:
+#IF subject's role is manager THEN give them admin access
+#UNLESS subject's machine does not have anti-virus installed
