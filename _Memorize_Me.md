@@ -25,7 +25,6 @@
 | 67-68 | DHCP |
 | 80 | HTTP |
 | 88 | Kerberos |
-| 110 | POP3 |
 | 123 | NTP |
 | 135 | Microsoft RPC |
 | 137-139 | NetBIOS |
@@ -55,5 +54,4 @@
 | 8080 | HTTP Proxy |
 | 8081 | HTTP Proxy |
 | 8443 | HTTPS |
-| 9100-9109 | Printer Services |
 | 9389 | Active Directory WebServices |
