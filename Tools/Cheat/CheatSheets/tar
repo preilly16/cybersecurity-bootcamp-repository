@@ -8,6 +8,32 @@ tar tvf <filename of existing tar file>
 
 #Extract data from a tar file
 tar xvf <filename of existing tar file>
-
+1212
 #Extract data from a tar file to a specific directory
 tar xvf <filename of existing tar file> -C <filepath of where you want the data to go>
+
+#Extract Specific Folder from tar archive
+#Step 1:
+#List the folders in the archive using 
+tar tvf <tar fileename>
+#example output
+./epscript/
+./epscript/backup/
+./epscript/backup/20190814epscript.tar
+./epscript/doctors/
+...
+...
+
+#Step 2
+# Extract just one folders
+tar xvf <tar filename> -C <filepath of where you want the data to go> <filepath of the folder within the tar archive that you want to extract>
+#example
+tar xvf <tar filename> -C ./outputfolder/ ./epscript/backup/
+
+
+#Incremental Backup and Restore
+
+#Create your initial Incremental backup (e.g. sunday backup)
+tar -cvgW <snapshot-file-name.snar> -f <sunday-backup.tar> /path/to/folder/to/backup
+#Create your first backup after initial (e.g. monday backup  )
+tar -cvgW snapshot-file-name -f monday-backup.tar /path/to/folder/to/backup
