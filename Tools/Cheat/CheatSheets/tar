@@ -1,0 +1,13 @@
+#Create a tar file
+tar cvf <filename of tar to be created> <filepath of data to be added to tar file>
+-- If we want to verify all data was properly added to tar file:
+-- tar Wcvf <filename of existing tar file> <filepath of data to be added to tar file>
+
+#List the contents of a tar file
+tar tvf <filename of existing tar file>
+
+#Extract data from a tar file
+tar xvf <filename of existing tar file>
+
+#Extract data from a tar file to a specific directory
+tar xvf <filename of existing tar file> -C <filepath of where you want the data to go>
