@@ -37,3 +37,8 @@ tar xvf <tar filename> -C ./outputfolder/ ./epscript/backup/
 tar -cvgW <snapshot-file-name.snar> -f <sunday-backup.tar> /path/to/folder/to/backup
 #Create your first backup after initial (e.g. monday backup  )
 tar -cvgW snapshot-file-name -f monday-backup.tar /path/to/folder/to/backup
+
+
+
+#Verify a Tar File is Valid
+tar -xzf hello.tgz -O > /dev/null
